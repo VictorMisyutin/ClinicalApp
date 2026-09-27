@@ -1,0 +1,65 @@
+/*
+  Design tokens.
+
+  The palette comes out of the ward itself rather than a generic product
+  palette: the blue-green of surgical drapes, the faint grey-green of chart
+  paper, and the three acuity colours that clinical staff already read without
+  thinking. Acuity colour is deliberately conventional — this is a safety tool
+  and a surprising colour language would be a defect, not a flourish.
+*/
+
+:root {
+  /* Surfaces and ink */
+  --ink: #131c1b;
+  --ink-2: #43534f;
+  --ink-3: #6f807b;
+  --paper: #eef1ed;
+  --card: #ffffff;
+  --rule: #d2dad5;
+  --rule-soft: #e4e9e5;
+
+  /* Primary — surgical drape */
+  --drape: #14625e;
+  --drape-deep: #0c403d;
+  --drape-wash: #e0edea;
+
+  /* Acuity */
+  --stable: #2f6f4e;
+  --stable-wash: #e6f0e9;
+  --watcher: #a85f08;
+  --watcher-wash: #f8eddc;
+  --unstable: #b02418;
+  --unstable-wash: #fae9e6;
+
+  /* Typography */
+  --font-display: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+  --font-body: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-data: 'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  --step--1: 0.78rem;
+  --step-0: 0.9375rem;
+  --step-1: 1.0625rem;
+  --step-2: 1.375rem;
+  --step-3: 1.875rem;
+  --step-4: 2.5rem;
+
+  /* Spacing */
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 24px;
+  --s-6: 32px;
+  --s-7: 48px;
+
+  --radius: 3px;
+  --radius-lg: 6px;
+
+  --shadow-sm: 0 1px 2px rgba(19, 28, 27, 0.06);
+  --shadow-md: 0 4px 16px rgba(19, 28, 27, 0.08);
+  --shadow-lg: 0 18px 44px rgba(19, 28, 27, 0.16);
+
+  --focus: 0 0 0 2px var(--card), 0 0 0 4px var(--drape);
+
+  --shell-max: 1180px;
+}

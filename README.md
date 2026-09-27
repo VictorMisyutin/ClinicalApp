@@ -2,9 +2,9 @@
 
 This project is a meant to simulate and act as clinical handoff and patient management application used by actual hospitals. I used the following National Library of Medicine articles to design and implement this app:
 
-[The Patient Handoff](https://pmc.ncbi.nlm.nih.gov/articles/PMC3409830/)
-[Using I-PASS to improve nursing handoffs](https://pmc.ncbi.nlm.nih.gov/articles/PMC12458891/)
-[SOAP Notes](https://pubmed.ncbi.nlm.nih.gov/29489268/)
+[The Patient Handoff](https://pmc.ncbi.nlm.nih.gov/articles/PMC3409830/)  
+[Using I-PASS to improve nursing handoffs](https://pmc.ncbi.nlm.nih.gov/articles/PMC12458891/)  
+[SOAP Notes](https://pubmed.ncbi.nlm.nih.gov/29489268/)  
 
 # How to Start ClinicalApp
 

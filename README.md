@@ -15,7 +15,7 @@ One-time setup (skip if already done):
 cd ClinicalApp/handoff-backend
 sudo mysql < db/setup.sql
 ```
-Then create `HandoffApi/appsettings.Development.json` (gitignored) with your DB connection string and a JWT signing key — see `handoff-backend/README.md` for the exact format.
+Then create `HandoffApi/appsettings.Development.json` (gitignored) with your DB connection string and a JWT signing key. See `handoff-backend/README.md` for the exact format.
 
 Start it:
 ```
